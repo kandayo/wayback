@@ -292,12 +292,12 @@ By adding the **showDupeCount=true** a new `dupecount` column will be added to t
 #### Skip Counter ####
 
 It is possible to track how many CDX lines were skipped due to [Filtering](#filtering) and [Collapsing](#collapsing)
-by adding the special `skipcount` counter with **showSkipCount=true**. 
+by adding the special `skipcount` counter with **showGroupCount=true**. 
 An optional `endtimestamp` count can also be used to print the timestamp of the last capture by adding **lastSkipTimestamp=true**
 
 * Ex: Collapse results by year and print number of additional captures skipped and timestamp of last capture:
 
-  http://web.archive.org/cdx/search/cdx?url=archive.org&collapse=timestamp:4&output=json&showSkipCount=true&lastSkipTimestamp=true
+  http://web.archive.org/cdx/search/cdx?url=archive.org&collapse=timestamp:4&output=json&showGroupCount=true&lastSkipTimestamp=true
 
 
 ### Pagination API ###
